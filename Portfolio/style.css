@@ -1385,6 +1385,11 @@ footer span a:hover {
   text-decoration: underline;
 }
 
+.footer {
+  background-color: #737272;
+  color: #fff;
+}
+
 /*  Media Query  */
 @keyframes pulsate {
   0% {
