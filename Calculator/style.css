@@ -1,59 +1,58 @@
 .calculator {
-    width: 300px;
-    margin: 50px auto;
-    background-color: #212121;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .display {
-    margin: 1.7%;
-    color: white;
-    text-align: right;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 24px;
-    text-align: right;
-    background-color: #424242;
-    border: none;
-    color: #ffffff;
-  }
-  
-  .keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
-    padding: 5px;
-  }
-  
-  button {
-    padding: 15px;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #424242;
-    color: #ffffff;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #616161;
-  }
-  
-  .function-key {
-    background-color: #757575;
-  }
-  
-  .operator {
-    background-color: #f57c00;
-  }
-  
-  .equals {
-    background-color: #1e88e5;
-  }
-  
+  width: 300px;
+  margin: 50px auto;
+  background-color: #212121;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.display {
+  margin: 1.7%;
+  color: white;
+  text-align: right;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: right;
+  background-color: #424242;
+  border: none;
+  color: #ffffff;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  padding: 5px;
+}
+
+button {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #424242;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #616161;
+}
+
+.function-key {
+  background-color: #757575;
+}
+
+.operator {
+  background-color: #f57c00;
+}
+
+.equals {
+  background-color: #1e88e5;
+}
